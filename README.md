@@ -1,4 +1,4 @@
-# Dholakpur Bank — Java Console Banking System
+# Java Console Banking System
 
 A console-based banking application built in Java to practice object-oriented programming, exception handling, collections, file handling, serialization, and clean separation of responsibilities.
 
