@@ -25,6 +25,10 @@ public class BankService {
             throw new IllegalArgumentException("Initial balance cannot be negative");
         }
 
+        if (pin < 1000 || pin > 9999) {
+            throw new IllegalArgumentException("PIN must be exactly 4 digits");
+        }
+
         Account account = new Account(
                 accountNumber,
                 holderName,
